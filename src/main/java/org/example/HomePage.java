@@ -3,11 +3,11 @@ package org.example;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class GoogleHomePage {
+public class HomePage {
     private WebDriver driver;
     private By searchField= By.className("gLFyf");
     private By searchButton= By.className("gNO89b");
-    public GoogleHomePage(WebDriver driver) {
+    public HomePage(WebDriver driver) {
         this.driver = driver;
     }
     public void enterKey(String className ,String key){
